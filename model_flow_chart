@@ -1,0 +1,11 @@
+digraph {
+	"Load Data"
+	"Preprocess Data"
+	"Define Model"
+	"Train Model"
+	"Evaluate Model"
+	"Load Data" -> "Preprocess Data"
+	"Preprocess Data" -> "Define Model"
+	"Define Model" -> "Train Model"
+	"Train Model" -> "Evaluate Model"
+}
